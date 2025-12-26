@@ -12,8 +12,8 @@ pipeline {
         
         // --- PATH FILE MANIFEST ---
         // Pastikan file deployment.yaml ini sudah ada di repo manifest Anda
-        MANIFEST_TEST_PATH = 'florist-landing/dev/deployment.yaml'
-        MANIFEST_PROD_PATH = 'florist-landing/prod/deployment.yaml' 
+        MANIFEST_TEST_PATH = 'manifests_irsyad/dev/deployment.yaml'
+        MANIFEST_PROD_PATH = 'manifests_irsyad/prod/deployment.yaml' 
     }
 
     stages {
